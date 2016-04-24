@@ -1,0 +1,7 @@
+defaults:
+    framerate: 20.0
+    resolution: (640, 480)
+    encrypt: false
+    address: 'devworks8@gmail.com'
+    savedir: '.'
+    rstopdelay: 5
