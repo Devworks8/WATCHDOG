@@ -1,7 +1,13 @@
 defaults:
     framerate: 20.0
-    resolution: (640, 480)
-    encrypt: false
-    address: 'devworks8@gmail.com'
+    resolution:
+        width: 640
+        height: 480
+    # Email address to send notifications to.
+    address: ''
+    smtp: 'smtp.gmail.com'
+    username: ''
+    password: ''
     savedir: '.'
-    rstopdelay: 5
+    # Number of minutes of no activity before stopping capture.
+    rstopdelay: 1
